@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body p{
+    text-align: justify;
+}
+body blockquote{
+    text-align: center;
+    font-size: 15;
+    font-style: italic;
+}
+body q{
+    text-align: rigth;
+    font-size: 14px;
+}
+
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.redes-sociais{
+    width: 12%;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    margin-left: 0%;
+    margin-bottom: 0%;    
+}
+.main figure figcaption{
+    font-size: 13px;
+}
+.anchors figure{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.anchors figure figcaption{
+    font-size: 13px;
+}
